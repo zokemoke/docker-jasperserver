@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+	<bean id="TahomaFontFamily" class="net.sf.jasperreports.engine.fonts.SimpleFontFamily">
+		<property name="name" value="Tahoma"/>
+		<property name="normal" value="Tahoma.ttf"/>
+		<property name="bold" value="Tahoma Bold.ttf"/>
+		<property name="pdfEncoding" value="Identity-H"/>
+		<property name="pdfEmbedded" value="true"/>
+	</bean>
+	<bean id="THSarabunFontFamily" class="net.sf.jasperreports.engine.fonts.SimpleFontFamily">
+		<property name="name" value="THSarabun"/>
+		<property name="normal" value="THSarabun.ttf"/>
+		<property name="bold" value="THSarabun Bold.ttf"/>
+		<property name="italic" value="THSarabun Italic.ttf"/>
+		<property name="boldItalic" value="THSarabun BoldItalic.ttf"/>
+		<property name="pdfEncoding" value="Identity-H"/>
+		<property name="pdfEmbedded" value="true"/>
+	</bean>
+</beans>
